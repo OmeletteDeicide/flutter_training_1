@@ -30,20 +30,24 @@ class Accueil extends StatelessWidget {
           Text('Accueil'),
           Icon(
             Icons.backup,
+            color: Colors.blue,
             size: 50.0,
             semanticLabel: "Upload to cloud", // Pemet de donner une description à l'icone pour les personnes malvoyantes
           ),
           Text('Accueil'),
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Icon(
                 Icons.favorite,
+                color: Colors.purple,
                 size: 50.0,
                 semanticLabel: "Heart icon",
               ),
               Text('Accueil'),
               Icon(
                 Icons.favorite,
+                color: Colors.purple,
                 size: 50.0,
                 semanticLabel: "Heart icon",
               )
