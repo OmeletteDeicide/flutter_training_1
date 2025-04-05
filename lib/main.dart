@@ -14,38 +14,40 @@ class MainApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Accueil(),
+      home: Accueil('Simon'),
     );
   }
 }
 
 
 class Accueil extends StatelessWidget {
+  final String _title;
+  Accueil(this._title);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:  AppBar(),
-      body: const Column(
+      body: Column(
         children: [
-          Text('Accueil'),
-          Icon(
+          Text('Bienvenue, $_title'),
+          const Icon(
             Icons.backup,
             color: Colors.blue,
             size: 50.0,
             semanticLabel: "Upload to cloud", // Pemet de donner une description à l'icone pour les personnes malvoyantes
           ),
-          Text('Accueil'),
+          Text('Bienvenue, $_title'),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Icon(
+              const Icon(
                 Icons.favorite,
                 color: Colors.purple,
                 size: 50.0,
                 semanticLabel: "Heart icon",
               ),
-              Text('Accueil'),
-              Icon(
+              Text('Bienvenue, $_title'),
+              const Icon(
                 Icons.favorite,
                 color: Colors.purple,
                 size: 50.0,
