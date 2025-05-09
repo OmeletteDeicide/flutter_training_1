@@ -1,0 +1,2 @@
+C:/Users/barth/Desktop/FlutterTraining/flutter_training_1/android/app/.cxx/Debug/6z3p3c6o/x86/CMakeFiles/edit_cache.dir
+C:/Users/barth/Desktop/FlutterTraining/flutter_training_1/android/app/.cxx/Debug/6z3p3c6o/x86/CMakeFiles/rebuild_cache.dir
